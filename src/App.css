@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  background-color: #61dafb;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +37,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.slider-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
 }

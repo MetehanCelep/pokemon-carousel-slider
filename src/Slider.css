@@ -1,0 +1,133 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  margin: 30px auto;
+  overflow: hidden;
+  display: block;
+  align-items: center;
+  background-color: cadetblue;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-top:70px ;
+}
+.slider-header {
+  text-align: center;
+ 
+}
+.slider-content {
+  display: flex;
+ 
+}
+
+.slider-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  width: calc(100% / 4 - 20px); 
+}
+
+
+.slider-item-inner {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  text-align: center;
+  width: 75%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.slider-item-inner img {
+  width: 100%;
+  height: 260px;
+  max-height: 150px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.slider-item h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+.pokemon-details {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.details-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.details-button:hover {
+  background-color: #218838;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1;
+  color: #555;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+}
+
+.left-arrow {
+  left: 15px;
+}
+
+.right-arrow {
+  right: 15px;
+}
+
+.slider-arrow:hover {
+  background: #fff;
+}
+
+.slider-arrow:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.dot-slider {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ccc;
+}
+
+.dot.active {
+  color: #333;
+}
