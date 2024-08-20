@@ -7,7 +7,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<SliderContainer apiUrl="https://pokeapi.co/api/v2/pokemon?limit=10" cardCount="10"/>} />
+        <Route path="/" element={<SliderContainer apiUrl="https://pokeapi.co/api/v2/pokemon?limit=10"/>} />
         <Route path="/pokemon/:id" element={<DetailedView />} />
       </Routes>
     </Router>

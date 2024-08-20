@@ -25,7 +25,7 @@ const SliderContainer = ({ apiUrl }) => {
   useEffect(() => {
     const updateVisibleItems = () => {
       const containerWidth = window.innerWidth;
-      const itemWidth = 350;
+      const itemWidth = 470;
       const itemsVisible = Math.floor(containerWidth / itemWidth);
       setVisibleItems(itemsVisible);
     };
