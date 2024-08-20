@@ -2,7 +2,7 @@ import React from 'react';
 import SliderItem from './SliderItem';
 
 const SliderContent = ({ items, currentIndex, visibleItems }) => {
-  const itemWidth = 470; 
+  const itemWidth = 370; 
   return (
     <div 
       className="slider-content" 
@@ -10,7 +10,7 @@ const SliderContent = ({ items, currentIndex, visibleItems }) => {
         transform: `translateX(-${currentIndex * itemWidth}px)`,
         transition: 'transform 0.5s ease-in-out',
         display: 'flex',
-        marginLeft:'20px'
+        marginLeft:'28px'
         
       }}
     >
